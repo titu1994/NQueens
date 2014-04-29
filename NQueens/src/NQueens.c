@@ -27,7 +27,6 @@ int main(void) {
 	a = (int*) calloc(n, sizeof(int));
 
 	NQueens(a,n,0);
-
 	return EXIT_SUCCESS;
 }
 
