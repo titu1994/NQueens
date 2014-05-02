@@ -11,8 +11,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int c = 1;
-
 int check(int *a, int r);
 void printSolution(int *a, int n,int count);
 void NQueens(int *a, int n, int r);
@@ -55,6 +53,7 @@ void printSolution(int *a, int n, int count){
 	printf("\n");
 }
 
+int c;
 void NQueens(int *a, int n, int r){
 	int i;
 
